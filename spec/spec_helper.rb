@@ -17,7 +17,7 @@ Spork.prefork do
     config.infer_base_class_for_anonymous_controllers = false
     config.order = "random"
   end
+end
 
-  Spork.each_run do
-  end
+Spork.each_run do
 end
