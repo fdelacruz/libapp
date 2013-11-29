@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Libapp</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>Libapp</title>
+      <%= stylesheet_link_tag    "application", :media => "all" %>
+      <%= javascript_include_tag "application" %>
+      <%= csrf_meta_tags %>
+  </head>
+  <body>
 
-  <div id="top-menu">
-    <%= link_to "Register", register_path %>
-  </div>
+    <%= top_menu %>
 
-<%= yield %>
+    <%= yield %>
 
-</body>
+  </body>
 </html>
