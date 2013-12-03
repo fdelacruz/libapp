@@ -13,7 +13,6 @@ group :test do
   gem 'capybara', '~> 1.1.1'
   gem 'database_cleaner', '~> 0.9.1'
   gem 'shoulda-matchers'
-  gem 'email_spec'
 end
 
 group :assets do
@@ -28,10 +27,10 @@ gem 'strong_parameters'
 gem 'email_validator'
 gem 'active_attr'
 
-# gem 'bcrypt-ruby'
+gem 'bcrypt-ruby'
 
 # To use ActiveModel has_secure_password
-gem 'bcrypt-ruby', '~> 3.0.0'
+# gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
