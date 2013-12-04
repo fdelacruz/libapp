@@ -9,6 +9,7 @@ Spork.prefork do
   require 'rspec/rails'
   require 'rspec/autorun'
   require "shoulda/matchers"
+  require 'email_spec'
 
   Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
 
