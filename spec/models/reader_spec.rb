@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe Reader do
   let(:reader) { Reader.new }
+  it { should have_many(:books) }
 
   describe "validations" do
     before :each do
